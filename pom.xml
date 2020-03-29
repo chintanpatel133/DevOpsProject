@@ -43,14 +43,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<url>http://52.212.124.120:8080</url>
-					<name>TomcatServer</name>
-					<path>/spring-boot-docker</path>
-				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>spring-boot-docker</finalName>
 	</build>
 
 </project>
