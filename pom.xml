@@ -12,7 +12,7 @@
 	<artifactId>spring-boot-docker</artifactId>
         <packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name></name>
+	<name>spring-boot-docker</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -45,7 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName></finalName>
+		<finalName>spring-boot-docker</finalName>
 	</build>
 
 </project>
