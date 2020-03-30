@@ -1,3 +1,5 @@
-FROM openjdk:8
-ADD target/spring-boot-docker.jar spring-boot-docker.jar
-ENTRYPOINT ["java","-jar","/spring-boot-docker.jar"]
+FROM tomcat:latest
+
+MAINTAINER Chintan Patel
+
+COPY ./spring-boot-docker.war /usr/local/tomcat/webapps
