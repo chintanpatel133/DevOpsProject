@@ -13,7 +13,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @EnableAutoConfiguration
 public class SpringBootDockerApplication extends SpringBootServletInitializer {
 	
-	@GetMapping("/test")
+	@GetMapping("/hello")
 	public String getMessage() {
 		return "Hello World !!";
 		
