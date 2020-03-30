@@ -15,7 +15,7 @@ public class SpringBootDockerApplication extends SpringBootServletInitializer {
 	
 	@GetMapping("/hello")
 	public String getMessage() {
-		return "Hello World !! --> V2";
+		return "Build the CI/CD Work flow using git, jenkins, docker, ansible";
 		
 	}
 
