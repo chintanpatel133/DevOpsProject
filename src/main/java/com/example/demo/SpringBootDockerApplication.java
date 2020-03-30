@@ -13,7 +13,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 @EnableAutoConfiguration
 public class SpringBootDockerApplication extends SpringBootServletInitializer {
 	
-	@GetMapping("/hello")
+	@GetMapping("/test")
 	public String getMessage() {
 		return "Build the CI/CD Work flow using git, jenkins, docker, ansible";
 		
